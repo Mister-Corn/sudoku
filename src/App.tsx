@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { SudokuBox } from './components/sudoku-box';
 
 function App() {
   return (
@@ -19,6 +20,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <section>
+          <SudokuBox />
+        </section>
+      </main>
     </div>
   );
 }
